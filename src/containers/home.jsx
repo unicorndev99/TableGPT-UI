@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { ethers, BigNumber } from 'ethers'
 import { ToastContainer, toast } from 'react-toastify';
 import { Navigation } from "../components/navigation";
 import SmoothScroll from "smooth-scroll";
