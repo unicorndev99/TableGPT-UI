@@ -1,0 +1,272 @@
+@media screen and (max-width: 400px) {
+
+}
+
+.rabble-context {
+    font-size: 24px;
+}
+
+#homebtn {
+    height: 40px;
+    width: 80px;
+    border-width: 4px;
+    border-radius: 15px;
+    color: black !important;
+    font-size: 14px !important;
+    padding: 6px !important;
+}
+.nav .ant-btn.ant-btn-background-ghost {
+    border-color: white !important;
+}
+.nav .ant-btn.ant-btn-background-ghost:hover ,.nav .ant-btn.ant-btn-background-ghost:focus {
+    border-color: #40a9ff !important;
+}
+#first {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    text-align: center !important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+}
+#mint_label {
+    margin-top: 90px;
+    font-weight: 600;
+    font-size: 20px !important;
+    color: #c05621;
+    text-align: center;
+}
+#mint_label_1 {
+    margin-top: 130px;
+    font-weight: 600;
+    font-size: 50px !important;
+    color: #c05621;
+    text-align: center;
+}
+#mint_count {
+    font-weight: 900;
+    color: #7b341e;
+}
+#img_gif {
+    /* margin-top: 20px; */
+    width: 150px;
+    /* margin-bottom: 30px; */
+}
+#incbtn , #decbtn {
+    border-radius: 10px;
+    color:white;
+    width: 60px;
+    height: 60px;
+    background-color: #916d55;
+    padding: 0px !important;
+    font-size: 3rem !important;
+}
+#incbtn:hover , #decbtn:hover {
+    background-color: #da6d25 !important;
+}
+#tokencosts {
+    font-weight: 900;
+}
+#first p {
+    margin-bottom: 0;
+}
+#mintbtn {
+    border-radius: 20px;
+    color:white;
+    width: 160px;
+    height: 85px;
+    font-size: 2.5rem;
+    background-color: #916d55;
+    padding: 0px !important;
+}
+#brownbtn {
+    border-radius: 10px;
+    color:white;
+    width: 120px;
+    height: 40px;
+    background-color: #916d55;
+    padding: 0px !important;
+}
+#brownbtn:hover , #decbtn:hover {
+    background-color: #da6d25 !important;
+} 
+#img_one {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    width: 100px;
+}
+#welcome_title {
+    font-weight: bolder;
+}
+#ipfsimg {
+    width: 200px !important;
+    border-radius: 20px;
+    box-shadow: 5px 6px #757575;
+}
+.imgBox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.imgDiv {
+    padding: 10px;
+    width: 240px;
+    /* height: 330px; */
+    margin: 10px;
+    text-align: center;
+    border-bottom: solid 5px #c05621 !important;
+    /* line-height: 75px;
+    border: solid 1px pink; */
+}
+.imgtitle {
+    width: 100%;
+    height: 40px !important;
+    margin-top: 3px;
+    
+}
+.imgtitle p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px !important;
+}
+.rare {
+    color :red;
+}
+.uncommon {
+    color :#c05621
+}
+.common {
+    color: teal;
+}
+.collectbtn {
+    width: 50%;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 20px !important;
+    border: none !important;
+    background-color: #c05621 !important;
+}
+.totaltitle {
+    padding-top: 40px;
+    color: cornflowerblue;
+}
+.collectall {
+    width: 260px;
+    border-radius: 20px !important;
+}
+.spintx {
+    /* width : 300px;
+    height :300px; */
+}
+.swapdiv {
+    /* width: 35%; */
+    margin: auto;
+    padding-top: 50px;
+}
+.swapmodal {
+    margin-top: 100px;
+    padding: 5%;
+    background-color: #e75e08;
+    border-radius: 2vw;
+    /* border: solid 0.5px #757575; */
+}
+.eggamount {
+    height: 8%;
+    border-radius: 15px !important;
+    width: 80% !important;
+    font-size: 30px !important;
+}
+.ethamount {
+    height: 8%;
+    border-radius: 15px !important;
+    width: 80% !important;
+}
+.arrowdown {
+    margin : 2% !important;
+    padding: 2%;
+    border-radius: 100%;
+    background-color: white;
+}
+.swapmodal .ant-input-affix-wrapper-lg input {
+        font-size: 33px;
+}
+.swapbtn{
+    margin: 3%;
+    width: 80%;
+    height: 10% !important;
+    font-size: 30px !important;
+}
+.swapbtn span {
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: black;
+}
+.herosuf {
+    border-left: solid 1px pink;
+    padding-left: 10%;
+    font-size: 35px !important;
+}
+.ethsuf {
+    border-left: solid 1px pink;
+    padding-left: 20%;
+    width: 40px;
+    height: 35px;
+}
+#spindiv {
+    width: 100% !important;
+    height: 100% !important;
+    /* position: fixed; */
+}
+html body {
+    height: 100% !important;
+}
+.logo {
+    font-size: 30px;
+}
+
+.links a {
+    font-size: 1.5rem !important;
+}
+#raritytitle {
+    font-size: 1.8rem !important;
+}
+#discordsvg {
+    width: 1em;
+    height: 1em;
+    margin-right: 8px;
+}
+#socialbtn {
+    height: 5rem !important;
+    margin: 10px;
+    border-radius: 5px;
+}
+.mintdiv {
+    text-align: center;
+    font-size: 1.8rem !important;
+    font-weight: 600;
+}
+#swapheader {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 3.5rem !important;
+    color: white;
+    margin-bottom: 15px !important;
+}
+#herocenter {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+.ant-spin-dot-spin {
+    position: fixed !important;
+}
+.ant-spin-text {
+    position: fixed !important;
+}
+#timetitle {
+    font-family: "Montserrat", Sans-serif;
+    color: #e75e08;
+    margin: 0px !important;
+    font-size: large !important;
+}
+#raretitle {
+    padding: 0px !important;
+    margin: 0px 0px 5px 0px!important;
+}
