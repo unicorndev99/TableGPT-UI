@@ -471,6 +471,117 @@ header .containerheader {
   background-color: black !important;
   width: 100%;
 }
+.upload_page {
+  background: #F8F8F8 !important;
+}
+.upload_div {
+  width: 60% !important;
+}
+.upload_header_div {
+  margin-top: 40px;
+  border-radius: 12px;
+  border: 0.67px solid rgba(12, 24, 53, 0.2);
+  box-shadow: 0px 0.672854483127594px 1.345708966255188px 0px rgba(12, 24, 53, 0.05);
+  background-color: white !important;
+  padding: 50px 40px 30px 40px;
+}
+.upload_row {
+  margin: auto !important;
+}
+.upload_header_title {
+  color: #333 !important;
+  font-size: 24.618px;
+  font-weight: 700;
+  letter-spacing: -0.919px;
+  margin-bottom: 0 !important;
+}
+.upload_header_subtitle {
+  color: #3E4351 !important;
+  font-weight: 400;
+  letter-spacing: -0.336px;
+  margin-top: 20px;
+  margin-bottom: 0 !important;
+}
+.search_icon {
+  width: 120px;
+}
+.upload_file_div {
+  margin-top: 30px;
+  height: 300px;
+}
+.upload_dragger {
+  border-radius: 12px !important;
+  background-color: white !important;
+}
+.introduce_header_title {
+  /* color: white !important; */
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin: 0 !important;
+}
+.introduce_header_pre {
+  margin: 0px 10px !important;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.introduce_header_subtitle {
+  /* line-height: 10px !im; */
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
+}
+.introduce_ul {
+  padding-left: 20px;
+}
+.input_submit {
+  margin-top: 5px !important;
+}
+#chatPrompt {
+  display: flex;
+  align-items: center;
+  color: black;
+  /* vertical-align: baseline; */
+}
+.botMessageWrapper {
+  display: flex;
+  align-items: center;
+}
+.chat_page_header {
+  padding: 15px;
+  border-bottom: solid 1px rgba(232, 232, 232, 1);
+}
+.big_small {
+  width: 25px;
+  height: 25px;
+  margin: auto 10px auto 20px;
+}
+.sublist_header {
+  margin: 0 !important;
+  font-size: 15px !important;
+  font-weight: 600;
+  line-height: 10px !important;
+}
+.sublist_title {
+  margin: 10 0 !important;
+  font-size: 13px !important;
+  /* font-weight: 600; */
+  line-height: 20px !important;
+}
+.Box_icon {
+  width: 20px; 
+  margin-right: 15px;
+}
+.chat_icon {
+  width: 20px;
+  margin-right: 10px;
+}
+.upgrade_icon:hover {
+  cursor: pointer;
+  transform: scale(0.95);
+}
+.sublist_row {
+  margin: 3vh 0;
+}
 .overlay {
   width: 600px;
   position: absolute;
@@ -750,6 +861,9 @@ footer {
   display: none;
 }
 @media (max-width: 991px) {
+  .upload_div {
+    width: 80% !important;
+  }
   .containerheader {
     padding: 0 10px;
   }
