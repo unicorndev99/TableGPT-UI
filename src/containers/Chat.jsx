@@ -57,7 +57,7 @@ const Chat = () => {
         // }
 
         try {
-          const response = await fetch("http://localhost:5000/getAnswer", {
+          const response = await fetch("https://tablegpt-add7b806bc39.herokuapp.com/getAnswer", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ message: inputPrompt, file: selectedTopic }),

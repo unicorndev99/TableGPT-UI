@@ -14,7 +14,7 @@ const UploadPage = ()  =>{
         name: 'file',
         accept: ".csv, .tsv, .gsheet, .xlsx, .xls",
         multiple: true,
-        action: 'http://localhost:5000/upload',
+        action: 'https://tablegpt-add7b806bc39.herokuapp.com/upload',
         onChange(info) {
           const { status } = info.file;
           if (status !== 'uploading') {
