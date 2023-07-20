@@ -12,9 +12,9 @@ export const Navigation = ({ onClickConnectWallet, onClickDisconnectWallet, wall
     <div className="containerheader">
         <img className="logoTitle" src={logoTitle}></img>
         <div className="links">
-            <a href="/#top" onClick={menu}>Home</a>
-            <a href="/hero" >Features</a>
-            <a href="/bank" >Testimonials</a>
+            <a className='navigate_link' href="/" onClick={menu}>Home</a>
+            <a className='navigate_link' href="/upload" >Upload</a>
+            <a className='navigate_link' href="/chat" >Chats</a>
             <Button className="defult-btn" onClick={onClickConnectWallet} ghost shape='round'>Sign In</Button>
             <Button className="defult-btn-next" onClick={onClickConnectWallet} shape='round'>Get Started Today</Button>
         </div>

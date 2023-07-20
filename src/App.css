@@ -226,7 +226,7 @@ html body {
 }
 
 .links a {
-    font-size: 1.5rem !important;
+    font-size: 1.7rem !important;
 }
 #raritytitle {
     font-size: 1.8rem !important;
@@ -335,7 +335,7 @@ nav {
 .navPrompt p {
   font-size: 14px;
   line-height: 20px;
-  color: #ececf1;
+  /* color: #ececf1; */
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;

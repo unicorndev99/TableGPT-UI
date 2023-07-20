@@ -1,4 +1,5 @@
 import React from "react";
+import Chat from "../assets/images/chat.png"
 
 const NavPrompt = ({ chatPrompt }) => {
   const chatPromptCharacters = chatPrompt.split("");
@@ -7,7 +8,7 @@ const NavPrompt = ({ chatPrompt }) => {
   return (
     <div className="navPrompt">
       <a href={`#${navPromptHref}`}>
-        <svg
+        {/* <svg
           viewBox="0 0 16 16"
           xmlns="http://www.w3.org/2000/svg"
           fill="#ECECF1"
@@ -21,7 +22,8 @@ const NavPrompt = ({ chatPrompt }) => {
             d="M15 3.25A2.25 2.25 0 0 0 12.75 1h-9.5A2.25 2.25 0 0 0 1 3.25v11a.75.75 0 0 0 1.26.55l2.801-2.6a.75.75 0 0 1 .51-.2h7.179A2.25 2.25 0 0 0 15 9.75v-6.5zm-2.25-.75a.75.75 0 0 1 .75.75v6.5a.75.75 0 0 1-.75.75H5.572a2.25 2.25 0 0 0-1.531.6L2.5 12.53V3.25a.75.75 0 0 1 .75-.75h9.5z"
             clipRule="evenodd"
           />
-        </svg>
+        </svg> */}
+        <img className="chat_icon" src={Chat} />
         <p>
           {chatPromptCharacters.map((char, idx) => (
             <span key={idx} style={{ animationDelay: `${idx * 0.1}s` }}>

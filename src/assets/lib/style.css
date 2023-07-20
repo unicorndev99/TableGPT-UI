@@ -92,7 +92,7 @@ header .containerheader {
   justify-content: space-around;
 }
 .links a {
-  margin: 10px;
+  margin: 10px 20px;
   /* color: var(--white); */
   color: white !important;
   font-size: 1rem;
@@ -581,6 +581,9 @@ header .containerheader {
 }
 .sublist_row {
   margin: 3vh 0;
+}
+.navigate_link:hover {
+  color: red !important
 }
 .overlay {
   width: 600px;
