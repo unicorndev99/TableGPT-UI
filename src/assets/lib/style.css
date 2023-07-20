@@ -575,6 +575,10 @@ header .containerheader {
   width: 20px;
   margin-right: 10px;
 }
+.chat_icon_list {
+  width: 20px;
+  /* margin-right: 10px; */
+}
 .upgrade_icon:hover {
   cursor: pointer;
   transform: scale(0.95);
