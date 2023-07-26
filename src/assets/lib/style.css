@@ -8,6 +8,7 @@
 html {
   scroll-behavior: smooth;
   font-family: "Work Sans", sans-serif !important;
+  background-color: #f8f8f8 !important;
 }
 .containerheader {
   max-width: 1200px;
@@ -575,10 +576,6 @@ header .containerheader {
   width: 20px;
   margin-right: 10px;
 }
-.chat_icon_list {
-  width: 20px;
-  /* margin-right: 10px; */
-}
 .upgrade_icon:hover {
   cursor: pointer;
   transform: scale(0.95);
@@ -589,6 +586,36 @@ header .containerheader {
 .navigate_link:hover {
   color: red !important
 }
+.PayStripe_div {
+  /* display: flex; */
+  /* width: 30%; */
+  max-width:550px;
+  margin: 20% auto;
+}
+.pay_button {
+  width: 100%;
+  height: 55px;
+  position: relative;
+  right: 0px !important;
+  margin-top: 20px;
+  background-color: #30313d !important;
+  border-radius: 5px !important;
+  border: 1px solid #424353;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5), 0px 1px 6px rgba(0, 0, 0, 0.25);
+  color: white;
+  font-size: 18px !important;
+
+}
+.pay_button:hover {
+  background-color: #007aff !important;
+  color: black;
+}
+.signin_btn {
+  margin: 0 40px !important;
+}
+/* .chat_avatar_row {
+  flex-direction: row;
+} */
 .overlay {
   width: 600px;
   position: absolute;
@@ -620,6 +647,15 @@ main {
 }
 .logos-slider {
   margin-top: 3em;
+}
+.Avatar_img {
+  width: 32px;
+  /* display: inline; */
+}
+.Avatar_name {
+  display: inline;
+  vertical-align: top;
+  margin-left: 10px;
 }
 .main-title {
   text-align: center;

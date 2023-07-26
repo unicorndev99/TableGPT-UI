@@ -1,5 +1,5 @@
 import React from "react";
-import Chat from "../assets/images/add2.png"
+import Chat from "../assets/images/chat.png"
 import { useHistory } from "react-router-dom";
 
 const NewChat = ({ setChatLog, setShowMenu }) => {

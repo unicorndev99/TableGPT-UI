@@ -9,17 +9,25 @@ import SvgComponent from "../components/SvgComponent";
 import { AppContext } from "../context/AuthContext";
 import Bigsmall from "../assets/images/Bot small.png"
 import logoTitle_black from "../assets/images/Group 19.png"
+import AvatarIcon from "../assets/images/Avatar.png"
+import { Col, Row } from "antd";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const Chat = () => {
   const {selectedTopic, topicList, setTopicList} = useContext(AppContext)
-
   const [showMenu, setShowMenu] = useState(false);
   const [inputPrompt, setInputPrompt] = useState("");
   const [chatLog, setChatLog] = useState([]);
   const [err, setErr] = useState(false);
   const [responseFromAPI, setReponseFromAPI] = useState(false);
-
   const chatLogRef = useRef(null);
+  const { isLoading, isAuthenticated, loginWithRedirect, user, logout } = useAuth0();
+  console.log("suere", user)
+  useEffect(() => {
+    if(!isLoading) {
+      if(!isAuthenticated) loginWithRedirect();
+    }
+  }, [isLoading])
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -98,15 +106,15 @@ const Chat = () => {
     <>
       <div className="chat_page_header">
         <div className="containerheader">
-            <img className="logoTitle" src={logoTitle_black}></img>
-            <div className="links">
-
-            </div>
-            <div className="bar">
-            <span></span>
-            <span></span>
-            <span></span>
-            </div>
+          <Row justify="space-between">
+            <Col xs={24} sm={8} md={8} lg={8}>
+              <img className="logoTitle" src={logoTitle_black} />
+            </Col>
+            <Col className="chat_avatar_row" xs={24} sm={8} md={8} lg={4}>
+              <img className="Avatar_img" src={AvatarIcon} />
+              <p className="Avatar_name">{user?.nickname}</p>
+            </Col>
+          </Row>
         </div>
       </div>
 

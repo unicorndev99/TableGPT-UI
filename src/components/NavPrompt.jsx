@@ -23,7 +23,7 @@ const NavPrompt = ({ chatPrompt }) => {
             clipRule="evenodd"
           />
         </svg> */}
-        <img className="chat_icon_list" src={Chat} />
+        <img className="chat_icon" src={Chat} />
         <p>
           {chatPromptCharacters.map((char, idx) => (
             <span key={idx} style={{ animationDelay: `${idx * 0.1}s` }}>

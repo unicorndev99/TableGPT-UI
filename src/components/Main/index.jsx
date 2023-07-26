@@ -325,24 +325,24 @@ const Main = (props)  =>{
                 <div className="container">
                     <div className='faq_div'>
 
-                        <h1 class="container_saytitle">Frequently asked questions</h1>
+                        <h1 className="container_saytitle">Frequently asked questions</h1>
                         <Collapse bordered={false} defaultActiveKey={['1']} expandIcon={({ isActive }) => isActive ? <MinusOutlined />: <PlusOutlined />} >
                             <Panel header="what is table AI?" key="1">
                                 <p className='faq_answer_title'>
                                     TableAI is a messageing platform that uses artificial intelligence to communication with users. It can understand natural language and provide helpful responses to your questions and requests.
                                 </p>
                             </Panel>
-                            <Panel header="what is table AI?" key="1">
+                            <Panel header="what is table AI?" key="2">
                                 <p className='faq_answer_title'>
                                     TableAI is a messageing platform that uses artificial intelligence to communication with users. It can understand natural language and provide helpful responses to your questions and requests.
                                 </p>
                             </Panel>
-                            <Panel header="what is table AI?" key="1">
+                            <Panel header="what is table AI?" key="3">
                                 <p className='faq_answer_title'>
                                     TableAI is a messageing platform that uses artificial intelligence to communication with users. It can understand natural language and provide helpful responses to your questions and requests.
                                 </p>
                             </Panel>
-                            <Panel header="what is table AI?" key="1">
+                            <Panel header="what is table AI?" key="4">
                                 <p className='faq_answer_title'>
                                     TableAI is a messageing platform that uses artificial intelligence to communication with users. It can understand natural language and provide helpful responses to your questions and requests.
                                 </p>

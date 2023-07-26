@@ -4,6 +4,7 @@
   "homepage": "./",
   "dependencies": {
     "@ant-design/icons": "^5.1.4",
+    "@auth0/auth0-react": "^2.2.0",
     "@fontsource/exo-2": "^4.5.3",
     "@stripe/react-stripe-js": "^2.1.1",
     "@stripe/stripe-js": "^1.54.1",

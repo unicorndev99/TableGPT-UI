@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react';
+import { useAuth0 } from "@auth0/auth0-react";
 import SearchImage from "../../assets/images/Search.svg";
 import { Row, Col, message, Upload } from 'antd';
 import { CloudUploadOutlined } from '@ant-design/icons'
@@ -9,6 +10,21 @@ const { Dragger } = Upload;
 const UploadPage = ()  =>{
     const history = useHistory();
     const {setSelectedTopic, topicList, setTopicList} = useContext(AppContext)
+    const { isLoading, isAuthenticated, loginWithRedirect, user, logout } = useAuth0();
+
+    useEffect(() => {
+      (async () => {
+        console.log(isLoading)
+        if(!isLoading) {
+          if(!isAuthenticated) await loginWithRedirect({
+            // redirectUri: `${window.location.origin}/upload`,
+            // appState: {
+            //   returnTo: href
+            // } 
+          });
+        }
+      })()
+    }, [isLoading])
 
     const props = {
         name: 'file',
